@@ -6,6 +6,10 @@ import italianDinnerPartyImg from './assets/italian_dinner_party.png';
 import indianKitchenSocialImg from './assets/indian_kitchen_social.png';
 import rooftopPartyImg from './assets/rooftop_party.png';
 import appScreenImg from './assets/app_screen.png';
+import heroChefImg from './assets/hero_chef.png';
+import heroDishMainImg from './assets/hero_dish_main.png';
+import heroDishSecondImg from './assets/hero_dish_second.png';
+import heroDishThirdImg from './assets/hero_dish_third.png';
 
 export const chefs = [
   { name: 'Ananya Iyer', area: 'Indiranagar · 0.8 km', cuisine: 'South Indian', rating: '4.9', meals: 6, src: ananyaIyerImg },
@@ -43,10 +47,10 @@ export const reviews = [
 ];
 
 export const heroDishes = {
-  main: 'https://foodish-api.com/images/butter-chicken/butter-chicken12.jpg',
-  second: 'https://foodish-api.com/images/pasta/pasta18.jpg',
-  third: 'https://foodish-api.com/images/dessert/dessert8.jpg',
-  chef: 'https://randomuser.me/api/portraits/women/68.jpg',
+  main: heroDishMainImg,
+  second: heroDishSecondImg,
+  third: heroDishThirdImg,
+  chef: heroChefImg,
 };
 
 export const pantryImages = {
