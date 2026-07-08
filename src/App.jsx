@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import BrandIntro from './components/BrandIntro';
 import Hero from './components/Hero';
 import HowItWorks from './components/HowItWorks';
 import Chefs from './components/Chefs';
@@ -15,6 +16,7 @@ export default function App() {
     <>
       <Navbar />
       <main>
+        <BrandIntro />
         <Hero />
         <HowItWorks />
         <Chefs />

@@ -1,3 +1,5 @@
+import logoIconImg from '../assets/logo_icon.jpg';
+
 export function PinIcon() {
   return (
     <svg width="27" height="27" viewBox="0 0 24 24" fill="none" stroke="#7A2E0C" strokeWidth="1.9" strokeLinecap="round" strokeLinejoin="round">
@@ -28,11 +30,11 @@ export function ScooterIcon() {
 
 export function Logo({ size = 34 }) {
   return (
-    <span
-      className="grid place-items-center rounded-xl bg-gradient-to-br from-amber via-orange to-brick shadow-[0_6px_16px_rgba(232,106,23,0.35)]"
+    <img
+      src={logoIconImg}
+      alt="GoHomey Logo"
+      className="rounded-xl object-cover shadow-[0_4px_12px_rgba(120,50,10,0.12)]"
       style={{ width: size, height: size }}
-    >
-      <span style={{ fontSize: size * 0.56 }}>🍳</span>
-    </span>
+    />
   );
 }

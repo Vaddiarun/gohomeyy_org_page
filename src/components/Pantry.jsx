@@ -27,7 +27,7 @@ export default function Pantry() {
             <span className="grid h-[38px] w-[38px] place-items-center rounded-[11px] bg-gradient-to-br from-peach to-amber text-[19px]">🧺</span>
             <div>
               <div className="font-display text-sm font-bold">Added to cart</div>
-              <div className="text-xs font-semibold text-leaf">Meal kit · $18</div>
+              <div className="text-xs font-semibold text-leaf">Meal kit · ₹199</div>
             </div>
           </div>
         </Reveal>

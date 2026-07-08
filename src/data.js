@@ -35,9 +35,9 @@ export const fuelMeals = [
 ];
 
 export const events = [
-  { day: '18', mon: 'OCT', tag: 'In-House Party · 8 tickets max', title: 'Coastal Italian Dinner Party', seats: '3 tickets left', price: '$42', src: italianDinnerPartyImg },
-  { day: '22', mon: 'OCT', tag: 'Home Kitchen Social · 6 tickets max', title: 'South Indian Thali & Beats', seats: 'Sold out soon', price: '$36', src: indianKitchenSocialImg },
-  { day: '25', mon: 'OCT', tag: 'Rooftop Party · 12 tickets max', title: 'West African Feast & Music', seats: '7 tickets left', price: '$48', src: rooftopPartyImg },
+  { day: '18', mon: 'OCT', tag: 'In-House Party · 8 tickets max', title: 'Coastal Italian Dinner Party', seats: '3 tickets left', price: '₹999', src: italianDinnerPartyImg },
+  { day: '22', mon: 'OCT', tag: 'Home Kitchen Social · 6 tickets max', title: 'South Indian Thali & Beats', seats: 'Sold out soon', price: '₹799', src: indianKitchenSocialImg },
+  { day: '25', mon: 'OCT', tag: 'Rooftop Party · 12 tickets max', title: 'West African Feast & Music', seats: '7 tickets left', price: '₹1,299', src: rooftopPartyImg },
 ];
 
 export const reviews = [
