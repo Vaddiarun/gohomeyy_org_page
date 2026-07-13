@@ -32,7 +32,7 @@ export function Logo({ size = 34 }) {
   return (
     <img
       src={logoIconImg}
-      alt="GoHomey Logo"
+      alt="Gohomeyy Logo"
       className="rounded-xl object-cover shadow-[0_4px_12px_rgba(120,50,10,0.12)]"
       style={{ width: size, height: size }}
     />

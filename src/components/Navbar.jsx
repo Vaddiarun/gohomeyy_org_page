@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-[72px] max-w-[1240px] items-center justify-between px-7">
         <a href="#top" className="flex items-center gap-2.5 text-ink">
           <Logo />
-          <span className="font-display text-[22px] font-extrabold tracking-[-0.02em] text-ink">GoHomey</span>
+          <span className="font-display text-[22px] font-extrabold tracking-[-0.02em] text-ink">Gohomeyy</span>
         </a>
         <div className="hidden items-center gap-[34px] lg:flex">
           {links.map((l) => (

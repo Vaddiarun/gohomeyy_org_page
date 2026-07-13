@@ -75,13 +75,13 @@ export default function BrandIntro() {
         ref={ghostTopRef}
         className="pointer-events-none absolute left-1/2 top-[16%] -translate-x-1/2 whitespace-nowrap font-display text-[clamp(60px,13vw,200px)] font-extrabold leading-none tracking-[-0.03em] text-ink/10"
       >
-        GoHomey&nbsp;&nbsp;GoHomey
+        Gohomeyy&nbsp;&nbsp;Gohomeyy
       </div>
       <div
         ref={ghostBottomRef}
         className="pointer-events-none absolute bottom-[14%] left-1/2 -translate-x-1/2 whitespace-nowrap font-display text-[clamp(60px,13vw,200px)] font-extrabold leading-none tracking-[-0.03em] text-ink/10"
       >
-        GoHomey&nbsp;&nbsp;GoHomey
+        Gohomeyy&nbsp;&nbsp;Gohomeyy
       </div>
 
       <div className="relative" style={{ perspective: '1400px' }}>

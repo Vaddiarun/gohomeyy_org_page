@@ -68,7 +68,7 @@ export default function Hero() {
               href="#download"
               className="inline-flex items-center gap-2.5 rounded-full bg-gradient-to-br from-amber via-orange to-brick px-[30px] py-4 text-[16.5px] font-bold text-white shadow-[0_14px_30px_rgba(232,106,23,0.4)] transition hover:-translate-y-0.5 hover:shadow-[0_20px_40px_rgba(232,106,23,0.5)]"
             >
-              Download GoHomey <span className="text-[19px]">→</span>
+              Download Gohomeyy <span className="text-[19px]">→</span>
             </a>
             <a
               href="#how"

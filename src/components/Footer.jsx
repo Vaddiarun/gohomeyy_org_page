@@ -28,7 +28,7 @@ export default function Footer() {
         <div>
           <div className="mb-4 flex items-center gap-2.5">
             <Logo />
-            <span className="font-display text-[22px] font-extrabold text-white">GoHomey</span>
+            <span className="font-display text-[22px] font-extrabold text-white">Gohomeyy</span>
           </div>
           <p className="max-w-[280px] text-[14.5px] leading-[1.6]">
             Home-cooked meals from real chefs next door. Discover, subscribe, and gather around the table.
@@ -60,9 +60,9 @@ export default function Footer() {
       </div>
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-[1240px] flex-wrap justify-between gap-3 px-6 py-[22px] text-[13px]">
-          <span>© 2025 GoHomey. Made with heat & heart.</span>
+          <span>© 2025 Gohomeyy. Made with heat & heart.</span>
           <span className="flex gap-5">
-            <a href="#" className="text-white/60">Privacy</a>
+            <a href="/privacy" className="text-white/60 hover:text-amber">Privacy</a>
             <a href="#" className="text-white/60">Terms</a>
             <a href="#" className="text-white/60">Support</a>
           </span>

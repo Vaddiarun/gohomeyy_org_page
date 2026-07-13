@@ -21,7 +21,7 @@ export default function BecomeChef() {
               Cook from home. Build a following. Get paid.
             </h2>
             <p className="mb-8 max-w-[520px] text-[17.5px] leading-[1.6] opacity-90">
-              Turn your kitchen into a business. Set your menu, take orders, host in-house parties & socials, and reach hungry neighbours — GoHomey handles discovery, payments and delivery.
+              Turn your kitchen into a business. Set your menu, take orders, host in-house parties & socials, and reach hungry neighbours — Gohomeyy handles discovery, payments and delivery.
             </p>
             <div className="flex flex-wrap gap-3.5">
               <a href="#download" className="rounded-full bg-white px-7 py-[15px] text-base font-bold text-brick transition hover:-translate-y-0.5">
@@ -42,7 +42,7 @@ export default function BecomeChef() {
           </div>
           
           <div className="hidden lg:block relative h-[320px] overflow-hidden rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.35)] border border-white/10">
-            <img src={logoFullImg} alt="GoHomey Brand Logo" className="h-full w-full object-cover transition duration-700 hover:scale-105" />
+            <img src={logoFullImg} alt="Gohomeyy Brand Logo" className="h-full w-full object-cover transition duration-700 hover:scale-105" />
           </div>
         </div>
       </Reveal>

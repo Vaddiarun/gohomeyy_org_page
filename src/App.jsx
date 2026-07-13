@@ -10,22 +10,31 @@ import Testimonials from './components/Testimonials';
 import BecomeChef from './components/BecomeChef';
 import Download from './components/Download';
 import Footer from './components/Footer';
+import PrivacyPolicy from './components/PrivacyPolicy';
 
 export default function App() {
+  const isPrivacyPage = window.location.pathname === '/privacy';
+
   return (
     <>
       <Navbar />
       <main>
-        <BrandIntro />
-        <Hero />
-        <HowItWorks />
-        <Chefs />
-        <Fuel />
-        <SocialTables />
-        <Pantry />
-        <Testimonials />
-        <BecomeChef />
-        <Download />
+        {isPrivacyPage ? (
+          <PrivacyPolicy />
+        ) : (
+          <>
+            <BrandIntro />
+            <Hero />
+            <HowItWorks />
+            <Chefs />
+            <Fuel />
+            <SocialTables />
+            <Pantry />
+            <Testimonials />
+            <BecomeChef />
+            <Download />
+          </>
+        )}
       </main>
       <Footer />
     </>

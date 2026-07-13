@@ -10,7 +10,7 @@ export default function Download() {
             Your neighbourhood kitchen, in your pocket.
           </h2>
           <p className="mb-[34px] max-w-[440px] text-lg leading-[1.55] text-coffee">
-            Download GoHomey and taste what's cooking next door tonight.
+            Download Gohomeyy and taste what's cooking next door tonight.
           </p>
           <div className="flex flex-wrap gap-3.5">
             <a href="#download" className="inline-flex items-center gap-3 rounded-2xl bg-ink px-6 py-3.5 text-white transition hover:-translate-y-0.5">
@@ -51,7 +51,7 @@ export default function Download() {
           >
             <div className="absolute left-1/2 top-5 z-[2] h-[22px] w-20 -translate-x-1/2 rounded-b-[14px] bg-ink" />
             <div className="h-full w-full overflow-hidden rounded-[34px] bg-cream">
-              <img src={appScreen} alt="GoHomey app" className="h-full w-full object-cover" />
+              <img src={appScreen} alt="Gohomeyy app" className="h-full w-full object-cover" />
             </div>
           </div>
         </Reveal>
